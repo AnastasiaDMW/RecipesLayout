@@ -50,6 +50,8 @@ dependencies {
     //Navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    //Glide
+    implementation(libs.github.bumptech.glide)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
