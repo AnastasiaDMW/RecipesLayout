@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.resolve.featureDependencies
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    kotlin("kapt")
 }
 
 android {
@@ -52,6 +53,17 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     //Glide
     implementation(libs.github.bumptech.glide)
+    //Room
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.room.common)
+    kapt(libs.androidx.room.compiler)
+    //Retrofit
+    implementation(libs.com.squareup.retrofit2)
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.squareup.okhttp3)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

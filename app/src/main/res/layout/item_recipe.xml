@@ -2,17 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/ivRecipe"
         android:src="@drawable/rebra"
         android:layout_marginTop="16dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
         android:scaleType="centerCrop"
         android:layout_width="match_parent"
+        android:clipToOutline="true"
+        android:background="@drawable/custom_image"
         android:layout_height="248dp"/>
 
     <TextView
