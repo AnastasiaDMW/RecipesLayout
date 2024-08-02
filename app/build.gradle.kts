@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.resolve.featureDependencies
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.10"
     kotlin("kapt")
 }
 
