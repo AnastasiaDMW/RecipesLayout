@@ -32,6 +32,8 @@ class HomeViewModel(
     private val _recipeUiState = MutableLiveData<RecipeUiState>()
     val recipeUiState: LiveData<RecipeUiState> = _recipeUiState
 
+    var filteredRecipeList: List<Recipe> = listOf()
+
     init {
         getRecipes()
     }

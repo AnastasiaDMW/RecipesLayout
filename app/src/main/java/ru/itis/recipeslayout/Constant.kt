@@ -6,4 +6,5 @@ object Constant {
     const val DETAIL_RECIPE = "detail_recipes"
     const val INGREDIENTS = "extended_ingredients"
     const val RECIPE  = "recipes"
+    const val RECIPE_ID = "RECIPE_ID"
 }

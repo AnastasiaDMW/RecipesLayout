@@ -38,6 +38,7 @@ class RecipeAdapter(
                     .error(R.drawable.not_found)
                     .apply(requestOptions)
                     .into(ivRecipe)
+                itemContainer.setOnClickListener { onClick(recipe) }
             }
         }
     }
