@@ -1,6 +1,5 @@
 package ru.itis.recipeslayout.fragments.home
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -26,9 +25,6 @@ class RecipeAdapter(
 
         private val requestOptions = RequestOptions
             .diskCacheStrategyOf(DiskCacheStrategy.ALL)
-
-        private val context: Context
-            get() = itemView.context
 
         fun onBind(recipe: Recipe) {
             binding.run {
@@ -58,9 +54,7 @@ class RecipeAdapter(
 
     override fun getItemCount(): Int = list.size
 
-    override fun onBindViewHolder(holder: RecipeHolder, position: Int) {
-        holder.onBind(list[position])
-    }
+    override fun onBindViewHolder(holder: RecipeHolder, position: Int) = holder.onBind(list[position])
 
     fun updateDataset(newList: List<Recipe>) {
         list = newList

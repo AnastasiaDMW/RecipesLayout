@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">RecipesLayout</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="failed_to_load">Failed to load</string>
     <string name="retry">Retry</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="gluten_free_tv">Gluten free:</string>
+    <string name="vegan_tv">Vegan:</string>
+    <string name="yes_tv">Yes</string>
+    <string name="no_tv">No</string>
+    <string name="cooking_minutes_tv">Cooking Minutes:</string>
+    <string name="health_score_tv">Health score:</string>
+    <string name="servings_tv">Servings:</string>
+    <string name="instruction_tv">Instructions:</string>
 </resources>
