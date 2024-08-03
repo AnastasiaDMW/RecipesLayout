@@ -15,6 +15,8 @@ import com.bumptech.glide.Glide
 import ru.itis.recipeslayout.R
 import ru.itis.recipeslayout.data.RecipeUiState
 import ru.itis.recipeslayout.databinding.FragmentHomeBinding
+import ru.itis.recipeslayout.fragments.CustomProgressErrorDialog
+import ru.itis.recipeslayout.fragments.CustomProgressLoadDialog
 import ru.itis.recipeslayout.fragments.detail.DetailFragment
 import ru.itis.recipeslayout.model.entity.Recipe
 

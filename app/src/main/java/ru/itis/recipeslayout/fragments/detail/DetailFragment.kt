@@ -14,8 +14,8 @@ import ru.itis.recipeslayout.Constant.RECIPE_ID
 import ru.itis.recipeslayout.R
 import ru.itis.recipeslayout.data.RecipeInfoUIState
 import ru.itis.recipeslayout.databinding.FragmentDetailBinding
-import ru.itis.recipeslayout.fragments.home.CustomProgressErrorDialog
-import ru.itis.recipeslayout.fragments.home.CustomProgressLoadDialog
+import ru.itis.recipeslayout.fragments.CustomProgressErrorDialog
+import ru.itis.recipeslayout.fragments.CustomProgressLoadDialog
 import ru.itis.recipeslayout.model.response.DetailRecipeApiResponse
 
 class DetailFragment : Fragment(R.layout.fragment_detail) {

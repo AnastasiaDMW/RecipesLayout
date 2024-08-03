@@ -1,4 +1,4 @@
-package ru.itis.recipeslayout.fragments.home
+package ru.itis.recipeslayout.fragments
 
 import android.app.Activity
 import android.app.AlertDialog
